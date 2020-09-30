@@ -52,7 +52,7 @@ imobj.set_pixel(0,4,True) to set the image object's led at on. Use False as the 
 ```
 You can view all of the image object's methods in the MakeCode Python editor by writing the object's name and pressing the dot (.) to activate the auto-complete feature. A list of methods shows with minimal documentation.
 
-## How to blend (combine) two images for display.
+## How to blend (combine) two image objects for display.
 To display a two digit number like 54 we need to take the image of digit '4' from the array we defined and copy the image of digit '5' scrolled 3 leds to the left. Then copy the final image to the led screen.
 Function showSmallNumber does exactly that:
 ```
