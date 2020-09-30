@@ -76,7 +76,7 @@ This concludes this little tutorial. Have a nice day.
 
 Thanos Siozos
 
-PS: if you try to display this code in the Blocks editor you'll see lots of blocks titled 'python code'. This is normal as there are no blocks for the image object's methods. Just use it in Python or TypeScript mode.
+PS: if you try to display this code in the Blocks editor you'll see lots of blocks titled 'python code'. This is normal as there are no corresponding blocks for the image object's methods. Just use it in Python or TypeScript mode.
 
 
 > Open this page at [https://tsiozos.github.io/small-numbers/](https://tsiozos.github.io/small-numbers/)
