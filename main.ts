@@ -21,12 +21,6 @@ function showSmallNumber(num: number) {
     
 }
 
-input.onButtonPressed(Button.A, function on_button_pressed_a() {
-    for (let δείκτη = 0; δείκτη < 10; δείκτη++) {
-        showSmallNumber(δείκτη)
-        basic.pause(1000)
-    }
-})
 let numbers : Image[] = []
 numbers = [images.createImage(`
     . . . # #
@@ -89,6 +83,16 @@ numbers = [images.createImage(`
     . . . . #
     . . . # #
     `)]
+//  digit 0
+//  digit 1
+//  digit 2
+//  digit 3
+//  digit 4
+//  digit 5
+//  digit 6
+//  digit 7
+//  digit 8
+//  digit 9
 // for i in range(10):
 //     showSmallNumber(i)
 //     basic.pause(500)
@@ -96,6 +100,3 @@ for (let i = 0; i < 100; i++) {
     showSmallNumber(i)
     basic.pause(200)
 }
-basic.forever(function on_forever() {
-    
-})

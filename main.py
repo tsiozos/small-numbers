@@ -12,12 +12,6 @@ def showSmallNumber(num: number):
         else:
             basic.clear_screen()
 
-def on_button_pressed_a():
-    for δείκτη in range(10):
-        showSmallNumber(δείκτη)
-        basic.pause(1000)
-input.on_button_pressed(Button.A, on_button_pressed_a)
-
 numbers: List[Image] = []
 numbers = [images.create_image("""
     . . . # #
@@ -25,70 +19,70 @@ numbers = [images.create_image("""
     . . . # #
     . . . # #
     . . . # #
-    """),
+    """),       # digit 0
     images.create_image("""
     . . . . #
     . . . # #
     . . . . #
     . . . . #
     . . . . #
-    """),
+    """),       # digit 1
     images.create_image("""
     . . . # #
     . . . . #
     . . . . #
     . . . # .
     . . . # #
-    """),
+    """),       # digit 2
     images.create_image("""
     . . . # #
     . . . . #
     . . . # #
     . . . . #
     . . . # #
-    """),
+    """),       # digit 3
     images.create_image("""
     . . . # .
     . . . # .
     . . . # #
     . . . . #
     . . . . #
-    """),
+    """),       # digit 4
     images.create_image("""
     . . . # #
     . . . # .
     . . . . #
     . . . . #
     . . . # .
-    """),
+    """),       # digit 5
     images.create_image("""
     . . . # #
     . . . # .
     . . . # .
     . . . # #
     . . . # #
-    """),
+    """),       # digit 6
     images.create_image("""
     . . . # #
     . . . . #
     . . . . #
     . . . . #
     . . . . #
-    """),
+    """),       # digit 7
     images.create_image("""
     . . . # #
     . . . # #
     . . . . .
     . . . # #
     . . . # #
-    """),
+    """),       # digit 8
     images.create_image("""
     . . . # #
     . . . # #
     . . . # #
     . . . . #
     . . . # #
-    """)]
+    """)]       # digit 9
 
 
 #for i in range(10):
@@ -99,7 +93,3 @@ for i in range(100):
     showSmallNumber(i)
     basic.pause(200)
 
-
-def on_forever():
-    pass
-basic.forever(on_forever)
