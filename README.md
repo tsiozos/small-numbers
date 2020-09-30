@@ -1,6 +1,8 @@
 # BBC Micro:bit : How to display two small digits in the led screen in MakeCode Python
 ## A semi-advanced image object tutorial for MakeCode Python
 
+![](/microbit2digits.png?raw=true)
+
 **ATTN: this is a MakeCode Python (or Static Python) project. This code will not run in MicroPython without changes**
 
 
